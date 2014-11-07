@@ -10,7 +10,7 @@ public:
 		BYTE b;
 		int i;
 		char c;
-		char str[32];
+		wchar_t str[32];
 		float f;
 		double d;
 		bool tf;
@@ -21,7 +21,8 @@ public:
 		Data.b = 1;
 		Data.i = 2;
 		Data.c = '3';
-		strcpy(Data.str, "test string");
+		wcscpy(Data.str, L"test string");
+		//strcpy(Data.str, "test string");
 		Data.f = 4.0;
 		Data.d = 5.0;
 		Data.tf = false;
