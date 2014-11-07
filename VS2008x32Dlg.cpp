@@ -162,4 +162,5 @@ void CVS2008x32Dlg::OnSave()
 	
 		fclose(fp);
 	}
+	//Last comment - Mark
 }
