@@ -6,7 +6,7 @@
 #include "Test.h"
 
 
-// CTest dialog
+// CTest dialog ryan
 
 IMPLEMENT_DYNAMIC(CTest, CDialog)
 
