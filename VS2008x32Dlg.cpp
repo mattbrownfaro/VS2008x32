@@ -9,7 +9,8 @@
 #define new DEBUG_NEW
 #endif
 
-BOOL FileExists(CString sFile)
+
+BOOL FileExists(CString sFile) //BOOL FileExists(CString sFile)
 {
 	bool bExists = false;
 	FILE* fp = fopen(sFile.GetBuffer(0), "rb");
@@ -96,6 +97,7 @@ void CVS2008x32Dlg::Populate()
 
 	LoadData();
 
+	//CString str;
 	CString str;
 	str.Format("BYTE: %i", settings.Data.b);
 	lb.AddString(str);
